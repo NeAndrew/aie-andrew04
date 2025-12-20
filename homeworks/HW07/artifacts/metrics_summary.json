@@ -1,0 +1,50 @@
+{
+    "S07-hw-dataset-01.csv": {
+        "KMeans": {
+            "best_k": 2,
+            "silhouette_score": 0.5216,
+            "davies_bouldin_score": 0.6853,
+            "calinski_harabasz_score": 11786.9546
+        },
+        "DBSCAN": {
+            "best_params": [
+                1.5,
+                3
+            ],
+            "silhouette_score": 0.3968,
+            "davies_bouldin_score": 0.9644,
+            "calinski_harabasz_score": 10446.5977,
+            "noise_ratio": 0.0
+        }
+    },
+    "S07-hw-dataset-02.csv": {
+        "KMeans": {
+            "best_k": 2,
+            "silhouette_score": 0.3069,
+            "davies_bouldin_score": 1.3235,
+            "calinski_harabasz_score": 3573.3933
+        },
+        "DBSCAN": {
+            "best_params": null,
+            "silhouette_score": null,
+            "davies_bouldin_score": null,
+            "calinski_harabasz_score": null,
+            "noise_ratio": 1.0
+        }
+    },
+    "S07-hw-dataset-04.csv": {
+        "KMeans": {
+            "best_k": 5,
+            "silhouette_score": 0.448,
+            "davies_bouldin_score": 0.9757,
+            "calinski_harabasz_score": 5103.0998
+        },
+        "DBSCAN": {
+            "best_params": null,
+            "silhouette_score": null,
+            "davies_bouldin_score": null,
+            "calinski_harabasz_score": null,
+            "noise_ratio": 1.0
+        }
+    }
+}
