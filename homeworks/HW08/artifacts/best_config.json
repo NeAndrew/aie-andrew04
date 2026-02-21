@@ -1,0 +1,10 @@
+{
+    "dataset": "EMNIST-balanced",
+    "seed": 42,
+    "hidden_dims": [
+        512,
+        256
+    ],
+    "dropout": 0.0,
+    "batchnorm": true
+}
