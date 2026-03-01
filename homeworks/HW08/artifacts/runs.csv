@@ -1,6 +1,0 @@
-﻿experiment_id,dataset,seed,model_summary,dropout,batchnorm,epochs_trained,best_val_accuracy,best_val_loss
-E0,EMNIST-balanced,42,"Однослойный MLP: 1 скрытый слой (256 нейронов), ReLU, без регуляризации",0.0,False,15,0.8333333333333334,0.5368247037238263
-E1,EMNIST-balanced,42,"MLP с 2 скрытыми слоями (512, 256 нейронов), ReLU, без регуляризации",0.0,False,15,0.843040780141844,0.4900082717550562
-E2,EMNIST-balanced,42,"MLP с 2 скрытыми слоями (512, 256 нейронов), ReLU, с Dropout=0.3",0.3,False,15,0.8426418439716312,0.47861268651400896
-E3,EMNIST-balanced,42,"MLP с 2 скрытыми слоями (512, 256 нейронов), ReLU, с BatchNorm",0.0,True,15,0.8536347517730496,0.4570511829768512
-E4,EMNIST-balanced,42,"MLP с 2 скрытыми слоями (512, 256 нейронов), ReLU, с BatchNorm и EarlyStopping",0.0,True,14,0.8528812056737589,0.46863506529348115
