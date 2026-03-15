@@ -1,19 +1,15 @@
 {
     "dataset": "EMNIST",
     "seed": 42,
-    "architecture": {
-        "hidden_dims": [
-            512,
-            256
-        ],
-        "dropout": 0.0,
-        "batchnorm": true
-    },
-    "training": {
-        "optimizer": "Adam",
-        "lr": 0.001,
-        "batch_size": 128,
-        "weight_decay": 0.0,
-        "epochs_trained": 13
-    }
+    "hidden_dims": [
+        512,
+        256
+    ],
+    "dropout": 0.0,
+    "batchnorm": true,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "batch_size": 128,
+    "weight_decay": 0.0,
+    "epochs_trained": 13
 }
