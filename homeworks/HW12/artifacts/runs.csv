@@ -1,5 +1,5 @@
 experiment_id,task,dataset,seed,split_summary,window_size,horizon,model_summary,features_summary,scaler,optimizer,lr,epochs_trained,best_val_mae,best_val_rmse,best_val_mape,test_mae,test_rmse,test_mape,notes
-B1,forecasting,S12-hw-dataset,42,70/15/15 (Temporal),N/A,1,naive-last,Last observed value (lag-1),None, ,N/A,0,6.444814205169678,8.201022148132324,4.39792163670063,,,,Baseline: y_t = y_{t-1}
-B2,forecasting,S12-hw-dataset,42,70/15/15 (Temporal),7,1,Moving Average (w=7), ,None, ,0,0,12.702011108398438,15.217644691467285,8.816863596439362,,,,Sliding window mean size 7
-B3,forecasting,S12-hw-dataset,42,70/15/15 (Temporal),24,1,Ridge Regression,"Lags(1,7,14), Rolling mean/std(7), Time features",None,Closed-form,N/A,0,5.9908782764832225,7.533348839495274,4.039373185976056,,,,Linear model with engineered features
+B1,forecasting,S12-hw-dataset,42,70/15/15 (Temporal),N/A,1,naive-last,Last observed value (lag-1),None, ,,0,6.444814205169678,8.201022148132324,4.39792163670063,,,,Baseline: y_t = y_{t-1}
+B2,forecasting,S12-hw-dataset,42,70/15/15 (Temporal),7,1,Moving Average (w=7), ,None, ,,0,12.702011108398438,15.217644691467285,8.816863596439362,,,,Sliding window mean size 7
+B3,forecasting,S12-hw-dataset,42,70/15/15 (Temporal),24,1,Ridge Regression,"Lags(1,7,14), Rolling mean/std(7), Time features",None,Closed-form,,0,5.9908782764832225,7.533348839495274,4.039373185976056,,,,Linear model with engineered features
 R1,forecasting,S12-hw-dataset,42,70/15/15 (Temporal),24,1,GRU Neural Network,Raw scaled sequence,None,Adam,0.001,20,5.442817211151123,6.983359336853027,3.664983808994293,6.241493,7.902987,4.026126489043236,"Hidden size 64, Best Val Loss 0.1428"
