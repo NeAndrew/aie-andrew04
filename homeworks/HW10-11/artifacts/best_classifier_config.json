@@ -6,5 +6,18 @@
   "lr": 0.001,
   "best_val_accuracy": 100.0,
   "test_accuracy": 93.6625,
-  "model_type": "ResNet18"
+  "model_type": "ResNet18",
+  "preprocess": {
+    "resize": 224,
+    "normalization": "ImageNet"
+  },
+  "augmentation": {
+    "random_crop": true,
+    "horizontal_flip": true
+  },
+  "transforms": {
+    "train": "Resize(224) -> RandomCrop -> RandomHorizontalFlip -> ToTensor -> Normalize(mean, std)",
+    "val": "Resize(224) -> ToTensor -> Normalize(mean, std)",
+    "test": "Resize(224) -> ToTensor -> Normalize(mean, std)"
+  }
 }
