@@ -69,7 +69,7 @@
 - Кривые лучшего прогона классификации: `./artifacts/figures/classification_curves_best.png`
 - Сравнение C1-C4: `./artifacts/figures/classification_compare.png`
 - Визуализация аугментаций: `./artifacts/figures/augmentations_preview.png`
-- Визуализации второй части: `./artifacts/figures/detection_examples_combined.png`, `./artifacts/figures/detection_metrics.png`
+- Визуализации второй части: `./artifacts/figures/detection_examples.png`, `./artifacts/figures/detection_metrics.png`
 
 Короткая сводка (6-10 строк):
 
