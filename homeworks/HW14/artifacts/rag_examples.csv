@@ -1,0 +1,6 @@
+question,answer,retrieved_sources
+What library is used for vector search?,FAISS is a library for efficient vector similarity search and clustering.,99902;5719;9152
+When was Qt 6.5 released?,Qt 6.5 introduced new features to Qt Quick. Integration with C++ remained stable.,99901;17470;454
+Who wrote Harry Potter?,"rothers), was the head writer.",15539;10111;15550
+What's the weather like in Moscow today?,"The city generally has a climate with warm days followed by cool nights and mornings. Unpredictable weather is expected, given that temperatures can drop to 1 °C (34 °F) or less during the winter. Dur",18854;1672;16628
+How do I install FAISS on Windows?,"ilable on Windows 95 through Microsoft Layer for Unicode, as well as on its descendants, Windows 98 and Windows ME.",12880;7218;17310
