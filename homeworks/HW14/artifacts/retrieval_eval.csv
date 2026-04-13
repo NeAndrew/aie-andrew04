@@ -1,0 +1,11 @@
+query,expected_source,retrieved_sources,hit_at_k,rank_of_first_relevant
+Capital of USA,"capital, United States",16129;586;9648;3272;14931,1,1
+Super Bowl XXXIV MVP,"Kurt Warner, MVP",3592;80;7944;7106;10016,1,1
+Sherlock Holmes author,"Conan Doyle, author",10111;10111;2921;13411;5489,1,1
+Beer alcohol content,"alcohol, volume, beer",6135;6134;6152;6160;6132,1,1
+Fastest insect runners,"Cockroaches, fastest, insect",14077;14048;14032;14076;2813,1,1
+CAA ATC responsibilities,"CAA, ATC, airports",6452;11923;4334;15915;13903,1,1
+British ales strength,"British, ales, 4%",6152;1723;6144;6157;6152,1,1
+Singapore surrender 1942,"Singapore, Japanese, 1942",16937;16988;9016;6581;17063,1,1
+Nutritional status studies,"nutritional, status, experiments",11124;11092;11128;11133;11131,1,1
+London Great Plague,"London, Plague, 1665",10111;10062;5471;5285;5285,1,1
