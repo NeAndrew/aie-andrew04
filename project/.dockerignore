@@ -1,0 +1,30 @@
+# Виртуальные окружения
+venv/
+implicit_env/
+.env
+
+# Данные и модели
+data/
+models/
+artifacts/
+notebooks/
+
+# Кэш и служебные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.git/
+.gitignore
+*.md
+.DS_Store
+
+# Тесты и документация
+tests/
+report.md
+self-checklist.md
+
+# Docker-файлы
+Dockerfile*
+docker-compose*
+.dockerignore

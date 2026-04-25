@@ -1,0 +1,191 @@
+{
+    "metadata": {
+        "model_id": "Qwen/Qwen2.5-7B-Instruct",
+        "user_id": 23,
+        "timestamp": "2026-04-23T12:05:13.005321",
+        "top_n": 5,
+        "shortlist_size": 20
+    },
+    "user_profile_snapshot": {
+        "history_count": 127,
+        "mean_rating": 3.3307086614173227,
+        "liked_count": 51,
+        "disliked_count": 22,
+        "favorite_tags": [
+            [
+                "to-read",
+                49
+            ],
+            [
+                "fiction",
+                35
+            ],
+            [
+                "currently-reading",
+                32
+            ],
+            [
+                "favorites",
+                20
+            ],
+            [
+                "book-club",
+                13
+            ]
+        ],
+        "avoid_tags": [
+            [
+                "to-read",
+                21
+            ],
+            [
+                "currently-reading",
+                15
+            ],
+            [
+                "fiction",
+                13
+            ]
+        ]
+    },
+    "raw_model_output": "{\n  \"user_id\": 23,\n  \"recommendations\": [\n    {\"book_id\": 143, \"title\": \"All the Light We Cannot See\", \"authors\": \"Anthony Doerr\", \"reason\": \"Эта книга сочетает в себе элементы исторического фэнтези и мистики, что соответствует интересам пользователя. Автор Антони Дурр известен за глубокие и эмоциональные произведения, такие как 'A Thousand Splendid Suns', что делает его подходящим выбором.\"},\n    {\"book_id\": 11, \"book_id\": 11, \"title\": \"The Kite Runner\", \"authors\": \"Khaled Hosseini\", \"reason\": \"Пользователь высоко оценил произведения Хоссейни, такие как 'A Thousand Splendid Suns'. 'The Kite Runner' также является классическим произведением этого автора, которое затрагивает темы войны и воссоединения, что соответствует интересам пользователя.\"},\n    {\"book_id\": 135, \"title\": \"A Storm of Swords (A Song of Ice and Fire, #3)\", \"authors\": \"George R.R. Martin\", \"reason\": \"Пользователь любит фэнтези с глубоким миростроительством, что делает серию 'Game of Thrones' идеальным выбором. 'A Storm of Swords' продолжает разворачивать сложный мир этой серии, который пользователь уже оценил положительно.\"},\n    {\"book_id\": 192, \"title\": \"The Name of the Wind (The Kingkiller Chronicle, #1)\", \"authors\": \"Patrick Rothfuss\", \"reason\": \"Пользователь любит фэнтези с глубоким миростроительством, что делает 'The Name of the Wind' идеальным выбором. Этот автор известен за создание сложных и захватывающих миров, что соответствует интересам пользователя.\"},\n    {\"book_id\": 33, \"title\": \"Memoirs of a Geisha\", \"authors\": \"Arthur Golden\", \"reason\": \"Пользователь уже высоко оценил произведения, связанные с историческим фэнтези, такие как 'A Thousand Splendid Suns'. 'Memoirs of a Geisha' также относится к этому жанру и предлагает глубокий взгляд на культуру Японии и женскую жизнь в XX веке, что соответствует интересам пользователя.\"}\n  ]\n}",
+    "parsed_recommendations": [
+        {
+            "book_id": 143,
+            "title": "All the Light We Cannot See",
+            "authors": "Anthony Doerr",
+            "average_rating": 4.31,
+            "ratings_count": 470001,
+            "top_tags": "to-read, currently-reading, historical-fiction, favorites, fiction",
+            "reason": "Эта книга сочетает в себе элементы исторического фэнтези и мистики, что соответствует интересам пользователя. Автор Антони Дурр известен за глубокие и эмоциональные произведения, такие как 'A Thousand Splendid Suns', что делает его подходящим выбором."
+        },
+        {
+            "book_id": 11,
+            "title": "The Kite Runner",
+            "authors": "Khaled Hosseini",
+            "average_rating": 4.26,
+            "ratings_count": 1813044,
+            "top_tags": "favorites, fiction, to-read, historical-fiction, books-i-own",
+            "reason": "Пользователь высоко оценил произведения Хоссейни, такие как 'A Thousand Splendid Suns'. 'The Kite Runner' также является классическим произведением этого автора, которое затрагивает темы войны и воссоединения, что соответствует интересам пользователя."
+        },
+        {
+            "book_id": 135,
+            "title": "A Storm of Swords (A Song of Ice and Fire, #3)",
+            "authors": "George R.R. Martin",
+            "average_rating": 4.54,
+            "ratings_count": 469022,
+            "top_tags": "to-read, fantasy, currently-reading, favorites, fiction",
+            "reason": "Пользователь любит фэнтези с глубоким миростроительством, что делает серию 'Game of Thrones' идеальным выбором. 'A Storm of Swords' продолжает разворачивать сложный мир этой серии, который пользователь уже оценил положительно."
+        },
+        {
+            "book_id": 192,
+            "title": "The Name of the Wind (The Kingkiller Chronicle, #1)",
+            "authors": "Patrick Rothfuss",
+            "average_rating": 4.55,
+            "ratings_count": 400101,
+            "top_tags": "to-read, fantasy, currently-reading, favorites, fiction",
+            "reason": "Пользователь любит фэнтези с глубоким миростроительством, что делает 'The Name of the Wind' идеальным выбором. Этот автор известен за создание сложных и захватывающих миров, что соответствует интересам пользователя."
+        },
+        {
+            "book_id": 33,
+            "title": "Memoirs of a Geisha",
+            "authors": "Arthur Golden",
+            "average_rating": 4.08,
+            "ratings_count": 1300209,
+            "top_tags": "to-read, favorites, fiction, historical-fiction, currently-reading",
+            "reason": "Пользователь уже высоко оценил произведения, связанные с историческим фэнтези, такие как 'A Thousand Splendid Suns'. 'Memoirs of a Geisha' также относится к этому жанру и предлагает глубокий взгляд на культуру Японии и женскую жизнь в XX веке, что соответствует интересам пользователя."
+        }
+    ],
+    "candidates_shortlist": [
+        {
+            "book_id": 31,
+            "title": "The Help",
+            "authors": "Kathryn Stockett",
+            "average_rating": 4.45,
+            "ratings_count": 1531753,
+            "top_tags": "to-read, currently-reading, favorites, fiction, historical-fiction",
+            "retrieval_score": 0.6519321240614302
+        },
+        {
+            "book_id": 2,
+            "title": "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+            "authors": "J.K. Rowling, Mary GrandPré",
+            "average_rating": 4.44,
+            "ratings_count": 4602479,
+            "top_tags": "to-read, favorites, fantasy, currently-reading, young-adult",
+            "retrieval_score": 0.6423877139330079
+        },
+        {
+            "book_id": 18,
+            "title": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+            "authors": "J.K. Rowling, Mary GrandPré, Rufus Beck",
+            "average_rating": 4.53,
+            "ratings_count": 1832823,
+            "top_tags": "favorites, fantasy, currently-reading, young-adult, to-read",
+            "retrieval_score": 0.6311496180202147
+        },
+        {
+            "book_id": 27,
+            "title": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+            "authors": "J.K. Rowling, Mary GrandPré",
+            "average_rating": 4.54,
+            "ratings_count": 1678823,
+            "top_tags": "to-read, fantasy, favorites, currently-reading, young-adult",
+            "retrieval_score": 0.6302900784287994
+        },
+        {
+            "book_id": 1,
+            "title": "The Hunger Games (The Hunger Games, #1)",
+            "authors": "Suzanne Collins",
+            "average_rating": 4.34,
+            "ratings_count": 4780653,
+            "top_tags": "favorites, currently-reading, young-adult, fiction, dystopian",
+            "retrieval_score": 0.6285106381525933
+        },
+        {
+            "book_id": 23,
+            "title": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+            "authors": "J.K. Rowling, Mary GrandPré",
+            "average_rating": 4.37,
+            "ratings_count": 1779331,
+            "top_tags": "fantasy, favorites, currently-reading, young-adult, fiction",
+            "retrieval_score": 0.6065270913479253
+        },
+        {
+            "book_id": 16,
+            "title": "The Girl with the Dragon Tattoo (Millennium, #1)",
+            "authors": "Stieg Larsson, Reg Keeland",
+            "average_rating": 4.11,
+            "ratings_count": 1808403,
+            "top_tags": "to-read, currently-reading, fiction, mystery, favorites",
+            "retrieval_score": 0.6057374379394544
+        },
+        {
+            "book_id": 25,
+            "title": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+            "authors": "J.K. Rowling, Mary GrandPré",
+            "average_rating": 4.61,
+            "ratings_count": 1746574,
+            "top_tags": "favorites, fantasy, young-adult, fiction, books-i-own",
+            "retrieval_score": 0.6042744679634298
+        },
+        {
+            "book_id": 422,
+            "title": "Harry Potter Boxset (Harry Potter, #1-7)",
+            "authors": "J.K. Rowling",
+            "average_rating": 4.74,
+            "ratings_count": 190050,
+            "top_tags": "favorites, to-read, currently-reading, fiction, favourites",
+            "retrieval_score": 0.6017710520333697
+        },
+        {
+            "book_id": 143,
+            "title": "All the Light We Cannot See",
+            "authors": "Anthony Doerr",
+            "average_rating": 4.31,
+            "ratings_count": 470001,
+            "top_tags": "to-read, currently-reading, historical-fiction, favorites, fiction",
+            "retrieval_score": 0.5994615566517312
+        }
+    ]
+}
