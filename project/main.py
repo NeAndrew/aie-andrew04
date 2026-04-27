@@ -242,7 +242,7 @@ def train_and_save_models(ratings: pd.DataFrame, books: pd.DataFrame):
             user_id_map, book_id_map, user_id_inv, book_id_inv)
 
 def load_saved_models(ratings: pd.DataFrame):
-    """Загрузка моделей из src/models или artifacts"""
+    """Загрузка моделей из src/models"""
     logger.info("Поиск сохраненных моделей...")
     
     # Проверяем наличие моделей в src/models
@@ -277,7 +277,7 @@ def load_saved_models(ratings: pd.DataFrame):
         user_id_inv = svd_mappings['user_id_inv']
         book_id_inv = svd_mappings['book_id_inv']
         
-    # Иначе пробуем загрузить из artifacts (старая версия)
+    # Иначе пробуем загрузить из artifacts (например пользователь сам туда загрузил модели)
     elif os.path.exists(os.path.join(ARTIFACTS_PATH, "svd_user_factors.npy")):
         logger.info("Загрузка моделей из artifacts...")
         with open(os.path.join(ARTIFACTS_PATH, "id_mappings.pkl"), 'rb') as f:
@@ -303,7 +303,7 @@ def load_saved_models(ratings: pd.DataFrame):
             user_id_map, book_id_map, 
             user_id_inv, book_id_inv)
 
-# --- Логика для Qwen ---
+# --- Логика для LLM ---
 def build_user_profile(user_id: int, ratings_df: pd.DataFrame, books_df: pd.DataFrame) -> dict:
     """Функция создает профиль пользователя на основе его истории."""
     user_ratings = ratings_df[ratings_df['user_id'] == int(user_id)]
@@ -538,7 +538,6 @@ async def log_requests(request: Request, call_next):
         raise
 
 # --- Эндпоинты ---
-
 @app.post("/recommend/svd", response_model=RecommendationResponse)
 def get_svd_recommendations(req: RecommendationRequest):
     """Рекомендации с SVD (Singular Value Decomposition)."""
